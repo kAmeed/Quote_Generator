@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container{
+   margin: auto;
+   text-align: center;
+   
+}
+h2{
+    font-size: 80px;
+    font-weight: 800;
+    padding-top: 40px;
+}
+h4{
+    font-size: 30px;
+    font-weight: 200;
+    padding-top: 40px;
+}
+p{
+    text-align: center;
+    margin: auto;
+    font-size: 50px;
+    max-width: 1000px;
+    padding-top: 40px;
+}
+button{
+    width: 250px;
+    height: 100px;
+    background-color: blue;
+    color: white;
+    margin-top: 40px;
+    transition: 0.2s;
+}
+button:hover{
+    background-color: green;
+}
